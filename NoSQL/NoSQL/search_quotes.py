@@ -1,8 +1,10 @@
 import mongoengine as me
 from models import Author, Quote
 
-me.connect('authors_and_quotes', host='mongodb+srv://mitrochin:t2oqOReYFZdRRnc2@cluster0.wur7t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
-
+MONGO_USER = os.getenv('MONGO_USER') 
+MONGO_PASSWORD = os.getenv('MONGO_PASSWORD') 
+MONGO_HOST = os.getenv('MONGO_HOST') 
+me.connect('contacts_db', host=f'mongodb+srv://{MONGO_USER}:{MONGO_PASSWORD}@{MONGO_HOST}/contacts_db?retryWrites=true&w=majority'
 
 def search_by_author(name):
     author = Author.objects(fullname=name).first()
