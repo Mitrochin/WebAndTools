@@ -1,0 +1,19 @@
+{% extends "quotes/base.html" %}
+
+{% block title %}Add Author{% endblock %}
+
+{% block content %}
+    <h2>Add Author</h2>
+    <form method="POST">
+        {% csrf_token %}
+        <label for="fullname">Full Name:</label>
+        <input type="text" name="fullname" required>
+        <label for="born_date">Born Date:</label>
+        <input type="text" name="born_date">
+        <label for="born_location">Born Location:</label>
+        <input type="text" name="born_location">
+        <label for="description">Description:</label>
+        <textarea name="description"></textarea>
+        <button type="submit">Add Author</button>
+    </form>
+{% endblock %}

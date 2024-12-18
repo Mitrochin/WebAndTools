@@ -1,0 +1,145 @@
+[
+    {
+        "_id": "6758c0a4150e242e9c7258fe",
+        "tags": [
+            "change",
+            "deep-thoughts",
+            "thinking",
+            "world"
+        ],
+        "author": "6758c0a3150e242e9c7258fc",
+        "quote": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”"
+    },
+    {
+        "_id": "6758c0a4150e242e9c7258ff",
+        "tags": [
+            "inspirational",
+            "life",
+            "live",
+            "miracle",
+            "miracles"
+        ],
+        "author": "6758c0a3150e242e9c7258fc",
+        "quote": "“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”"
+    },
+    {
+        "_id": "6758c0a4150e242e9c725900",
+        "tags": [
+            "adulthood",
+            "success",
+            "value"
+        ],
+        "author": "6758c0a3150e242e9c7258fc",
+        "quote": "“Try not to become a man of success. Rather become a man of value.”"
+    },
+    {
+        "_id": "6758c0a4150e242e9c725901",
+        "tags": [
+            "humor",
+            "obvious",
+            "simile"
+        ],
+        "author": "6758c0a4150e242e9c7258fd",
+        "quote": "“A day without sunshine is like, you know, night.”"
+    },
+    {
+        "_id": "67599b75d8fde54803511ea1",
+        "quote": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”",
+        "author": "6758c0a3150e242e9c7258fc",
+        "tags": [
+            "change",
+            "deep-thoughts",
+            "thinking",
+            "world"
+        ]
+    },
+    {
+        "_id": "67599b75d8fde54803511ea2",
+        "quote": "“It is our choices, Harry, that show what we truly are, far more than our abilities.”",
+        "author": "67599b74d8fde54803511e98",
+        "tags": [
+            "abilities",
+            "choices"
+        ]
+    },
+    {
+        "_id": "67599b75d8fde54803511ea3",
+        "quote": "“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”",
+        "author": "6758c0a3150e242e9c7258fc",
+        "tags": [
+            "inspirational",
+            "life",
+            "live",
+            "miracle",
+            "miracles"
+        ]
+    },
+    {
+        "_id": "67599b75d8fde54803511ea4",
+        "quote": "“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”",
+        "author": "67599b75d8fde54803511e9a",
+        "tags": [
+            "aliteracy",
+            "books",
+            "classic",
+            "humor"
+        ]
+    },
+    {
+        "_id": "67599b75d8fde54803511ea5",
+        "quote": "“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”",
+        "author": "67599b75d8fde54803511e9b",
+        "tags": [
+            "be-yourself",
+            "inspirational"
+        ]
+    },
+    {
+        "_id": "67599b75d8fde54803511ea6",
+        "quote": "“Try not to become a man of success. Rather become a man of value.”",
+        "author": "6758c0a3150e242e9c7258fc",
+        "tags": [
+            "adulthood",
+            "success",
+            "value"
+        ]
+    },
+    {
+        "_id": "67599b76d8fde54803511ea7",
+        "quote": "“It is better to be hated for what you are than to be loved for what you are not.”",
+        "author": "67599b75d8fde54803511e9d",
+        "tags": [
+            "life",
+            "love"
+        ]
+    },
+    {
+        "_id": "67599b76d8fde54803511ea8",
+        "quote": "“I have not failed. I've just found 10,000 ways that won't work.”",
+        "author": "67599b75d8fde54803511e9e",
+        "tags": [
+            "edison",
+            "failure",
+            "inspirational",
+            "paraphrased"
+        ]
+    },
+    {
+        "_id": "67599b76d8fde54803511ea9",
+        "quote": "“A woman is like a tea bag; you never know how strong it is until it's in hot water.”",
+        "author": "67599b75d8fde54803511e9f",
+        "tags": [
+            "misattributed-eleanor-roosevelt"
+        ]
+    },
+    {
+        "_id": "67599b76d8fde54803511eaa",
+        "quote": "“A day without sunshine is like, you know, night.”",
+        "author": "6758c0a4150e242e9c7258fd",
+        "tags": [
+            "humor",
+            "obvious",
+            "simile"
+        ]
+    }
+]

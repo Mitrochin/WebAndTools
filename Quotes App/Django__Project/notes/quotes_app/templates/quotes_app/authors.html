@@ -1,0 +1,22 @@
+{% extends "quotes/base.html" %}
+
+{% block title %}Authors{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-center">Authors</h2>
+            <ul class="list-group">
+                {% for author in authors %}
+                    <li class="list-group-item">
+                        <a href="{% url 'quotes_app:author_detail' author.pk %}">{{ author.fullname }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+

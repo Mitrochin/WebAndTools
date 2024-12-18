@@ -1,0 +1,21 @@
+{% extends "quotes/base.html" %}
+
+{% block title %}Add Quote{% endblock %}
+
+{% block content %}
+    <h2>Add Quote</h2>
+    <form method="POST">
+        {% csrf_token %}
+        <label for="quote">Quote:</label>
+        <textarea name="quote" required></textarea>
+        <label for="author">Author:</label>
+        <select name="author">
+            {% for author in authors %}
+                <option value="{{ author.id }}">{{ author.fullname }}</option>
+            {% endfor %}
+        </select>
+        <label for="tags">Tags:</label>
+        <input type="text" name="tags">
+        <button type="submit">Add Quote</button>
+    </form>
+{% endblock %}

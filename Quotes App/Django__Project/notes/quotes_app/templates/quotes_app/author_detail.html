@@ -1,0 +1,24 @@
+{% extends "quotes/base.html" %}
+
+{% block content %}
+  <div class="row">
+    <div class="col-12">
+      <h2 class="text-center">{{ author.fullname }}</h2>
+      <p><strong>Born Date:</strong> {{ author.born_date }}</p>
+      <p><strong>Born Location:</strong> {{ author.born_location }}</p>
+      <p><strong>Description:</strong> {{ author.description }}</p>
+      <h3>Quotes</h3>
+      <ul>
+        {% for quote in quotes %}
+          <li>{{ quote.quote }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+{% endblock %}
+
+
+
+
+
+
