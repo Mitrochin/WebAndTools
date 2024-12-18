@@ -3,15 +3,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('quotes_app.urls', namespace='quotes_app')),  # Здесь мы включаем маршруты приложения quotes_app
+    path('', include('quotes_app.urls', namespace='quotes_app')), 
 ]
-
-
-
-
-
-
-
-
-
 
