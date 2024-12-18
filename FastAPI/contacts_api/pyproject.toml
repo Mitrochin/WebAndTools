@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "contacts-api"
+version = "0.1.0"
+description = ""
+authors = ["mitrochin <mitrochin666@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.6"
+sqlalchemy = "^2.0.36"
+asyncpg = "^0.30.0"
+databases = "^0.9.0"
+pydantic = "^2.10.3"
+uvicorn = {extras = ["standard"], version = "^0.34.0"}
+psycopg2-binary = "^2.9.10"
+alembic = "^1.14.0"
+email-validator = "^2.2.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start = "uvicorn contacts_api.main:app --reload"
+
